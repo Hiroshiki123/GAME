@@ -1,0 +1,55 @@
+:root{
+    --cinzafundo: #181818;
+    --verdeescuro: #10A15B;
+    --verdeclaro: #00EE7B;
+    --roxo: #8417b6;
+    --marrom: #7a5c1f;
+}
+.fundo{
+    background-color: var(--cinzafundo);
+}
+section{
+    font-size: large;
+}
+.imgLogo{
+    width: 100px;
+}
+.img-texto{
+    width: 350px;
+}
+a{
+    font-size: large;
+    font-weight: 600;
+    transition: .5s;
+    font-family: 'Creepster', cursive;
+}
+header{
+    position: fixed;
+    background-color: var(--roxo);
+    z-index: 2;
+}
+.top{
+    color: white;
+}
+.top:hover{
+    font-size: x-large;
+    transition: .5s;
+}
+.slide{
+    z-index: 1;
+}
+.card{
+    z-index: 1;
+}
+.card-text{
+    font-size: medium;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Creepster', cursive;
+}
+p, label{
+    font-weight: 600;
+    font-size: large;
+    text-align: start;
+}
